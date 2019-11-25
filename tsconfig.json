@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2017",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "strictNullChecks": true,
+        // "outDir": "dist",  // TS文件编译后会放入到此文件夹内
+        "baseUrl": ".",
+    },
+    "exclude": [  //如果"files"和"include"都没有被指定，编译器默认包含当前目录和子目录下所有的TypeScript文件（.ts, .d.ts 和 .tsx），排除在"exclude"里指定的文件。
+        "node_modules",
+    ],
+}
